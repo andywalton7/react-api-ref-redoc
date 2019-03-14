@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ReDoc</title>
+    <!-- needed for adaptive design -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <!--
+    ReDoc doesn't change outer page styles
+    -->
+  </head>
+  <body>
+      <div id="redoc"></div>
+      <script src="https://cdn.jsdelivr.net/npm/redoc@next/bundles/redoc.standalone.js"> </script> 
+      <script>
+          Redoc.init('https://raw.githubusercontent.com/andywalton7/ReDocTest/master/ShipmentAPI.yaml', {
+              hideDownloadButton: true,
+              hideLoading: 1,
+              requiredPropsFirst: 1,
+              expandResponses: "200",
+              theme: {
+                colors: {
+                  tonalOffset: '0',
+                  primary: {
+                    main: '#494B52'
+                  },
+                  success: {
+                    main: '#54b92b'
+                  },
+                  http: {
+                    get: '#FF055E',
+                    post: '#FF055E',
+                    put: '#FF055E',
+                    options: '#d3ca12',
+                    patch: '#e09d43',
+                    delete: '#FF055E',
+                    basic: '#999',
+                    link: '##FF055E',
+                    head: '##FF055E',
+                  },
+                },
+                typography: {
+                  fontSize: '14px',
+                  fontFamily: 'Circular Pro Book, sans-serif',
+                  headings: {
+                    fontFamily: 'Circular Pro Black, sans-serif',
+                  },
+                },
+                menu: {
+                  backgroundColor: '#fff',
+                  textColor: '#404040',
+                },
+                logo: {
+                  maxWidth: '180px',
+                },
+                rightPanel: {
+                  backgroundColor: '#696969',
+                  textColor: '#f7f7f7',
+                }
+              }
+          }, document.getElementById('redoc'))
+      </script>
+  </body>
+</html>

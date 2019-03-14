@@ -1,0 +1,19 @@
+C:\redoc>npm install redoc --save
+npm WARN saveError ENOENT: no such file or directory, open 'C:\redoc\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'C:\redoc\package.json'
+npm WARN redoc@2.0.0-rc.2 requires a peer of mobx@^4.2.0 but none is installed. You must install peer dependencies yourself.
+npm WARN redoc@2.0.0-rc.2 requires a peer of react@^16.2.0 but none is installed. You must install peer dependencies yourself.
+npm WARN redoc@2.0.0-rc.2 requires a peer of react-dom@^16.2.0 but none is installed. You must install peer dependencies yourself.
+npm WARN redoc@2.0.0-rc.2 requires a peer of styled-components@^4.0.1 but none is installed. You must install peer dependencies yourself.
+npm WARN mobx-react@5.4.3 requires a peer of mobx@^4.0.0 || ^5.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN mobx-react@5.4.3 requires a peer of react@^0.13.0 || ^0.14.0 || ^15.0.0 || ^16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-dropdown@1.6.4 requires a peer of react@^0.14.7 || ^15.0.0-0 || ^16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-dropdown@1.6.4 requires a peer of react-dom@^0.14.7 || ^15.0.0-0 || ^16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-tabs@2.3.0 requires a peer of react@^0.14.9 || ^15.3.0 || ^16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-hot-loader@4.7.2 requires a peer of react@^15.0.0 || ^16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN react-hot-loader@4.7.2 requires a peer of react-dom@^15.0.0 || ^16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN redoc No description
+npm WARN redoc No repository field.
+npm WARN redoc No README data
+npm WARN redoc No license field.

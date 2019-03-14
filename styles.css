@@ -1,0 +1,134 @@
+/* ----------------------
+// Font face declarations
+// ----------------------*/
+
+@font-face {
+    font-family: 'Circular Pro Book';
+    src: url("assets/fonts/Book/lineto-circular-pro-book.eot?") format("embedded-opentype");
+    src: url("assets/fonts/Book/lineto-circular-pro-book.woff2?") format("woff2");
+    src: url("assets/fonts/Book/lineto-circular-pro-book.woff?") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Pro Bold';
+    src: url("assets/fonts/Bold/lineto-circular-pro-bold.eot?") format("embedded-opentype");
+    src: url("assets/fonts/Bold/lineto-circular-pro-bold.woff2?") format("woff2");
+    src: url("assets/fonts/Bold/lineto-circular-pro-bold.woff?") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Pro Black';
+    src: url("assets/fonts/Black/lineto-circular-pro-black.eot?") format("embedded-opentype");
+    src: url("assets/fonts/Black/lineto-circular-pro-black.woff2?") format("woff2");
+    src: url("assets/fonts/Black/lineto-circular-pro-black.woff?") format("woff");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circular Pro Medium';
+    src: url("assets/fonts/Medium/lineto-circular-pro-medium.eot?") format("embedded-opentype");
+    src: url("assets/fonts/Medium/lineto-circular-pro-medium.woff2?") format("woff2");
+    src: url("assets/fonts/Medium/lineto-circular-pro-medium.woff?") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-color: #FF055E; 
+    font-size: 2.25em !important;
+}
+
+img {
+    margin: 27px auto;
+}
+
+.react-tabs__tab {
+    color: #404040 !important;
+}
+
+/*.kmipUx:first-child {
+    padding: 10px 0px !important;
+}
+
+.kmipUx {
+    margin: 40px 0px !important;
+}*/
+
+.ghcciP:not(:last-of-type)::after {
+    border-bottom: 2px solid #e0e0e0 !important;  
+}
+
+.react-tabs__tab-panel {
+    border-radius: 8px;
+}
+
+span.token {
+    color: rgb(255, 182, 208) !important;
+}
+
+span.property {
+    color: #f0f0f0 !important;
+}
+
+span.punctuation {
+    color: #f0f0f0 !important;
+}
+
+.sc-6itmo6-1 {
+    margin: 0 !important;
+}
+
+.sc-6itmo6-1:first-child {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.api-info {
+    /*background-color: #f7f7f7;*/
+    padding: 40px !important;
+}
+
+.api-info h1 {
+    padding-bottom: 20px !important;
+    font-size: 3em !important;
+}
+
+.api-info h1 span {
+    display: none;
+}
+
+a {
+    color: #FF055E !important;
+    text-decoration: underline !important;
+}
+
+h1 {
+    margin-bottom: 5px !important;
+}
+
+.shv3r-1 {
+    margin-top: 4px !important;
+}
+
+.menu-content {
+    border-right: solid 2px #e0e0e0 !important;
+}
+
+#section\/Authentication {
+    padding-top: 10px !important;
+    padding-bottom: 10 !important;
+    border-bottom: solid 2px #e0e0e0 !important;
+}
